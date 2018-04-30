@@ -5,7 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+gem 'bootstrap', '~> 4.1.0'
+gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record
@@ -34,11 +35,15 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'simple_form'
-gem "bulma-rails", "~> 0.7.1"
+# gem "bulma-rails", "~> 0.7.1"
 gem 'devise', '~> 4.4'
 gem 'gravatar_image_tag'
 gem 'carrierwave'
 gem "mini_magick"
+gem 'owlcarousel2-rails'
+gem 'jquery-ui-rails'
+gem "font-awesome-rails"
+gem 'jquery-easing-rails'
 
 
 group :development, :test do
